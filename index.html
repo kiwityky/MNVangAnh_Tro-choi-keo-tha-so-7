@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>Làm quen với số 7 - Kéo thả</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="viewport">
+  <div id="stage">
+    <h1 id="tieude">KÉO ĐỒ VẬT VÀO SỐ ĐÚNG</h1>
+    <div id="huongdan">Đếm đồ vật rồi kéo thả xuống con số tương ứng</div>
+    <div id="vat-hang"></div>
+    <div id="so-hang"></div>
+    <div id="tiendo"></div>
+    <button id="amthanh" title="Bật / tắt âm thanh" aria-label="Bật hoặc tắt âm thanh">🔊</button>
+    <div id="khen" aria-live="polite"></div>
+    <div id="thang" hidden>
+      <div class="hop">
+        <div class="hoanho">HOAN HÔ!</div>
+        <p>Các con đã ghép đúng cả 7 nhóm đồ vật</p>
+        <button id="choilai">Chơi lại</button>
+      </div>
+    </div>
+    <canvas id="phao"></canvas>
+  </div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
